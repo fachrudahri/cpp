@@ -8,7 +8,7 @@ int main() {
     int hcf;
     cout <<"APLIKASI MODULO BY FACHRU DAHRI (17350068)"<<endl;
     cout <<"++++++++++++++++++++++++++++++++++++++++++"<<endl<<endl;
-    cout <<"mencari nilai GDC "<<nilA<<" mod "<<nilB<< " adalah : "<<mod1<<endl;
+    cout <<"Hasil "<<nilA<<" mod "<<nilB<< " adalah = "<<mod1<<endl;
 
     // pengkondisian nilai
     
