@@ -2,24 +2,24 @@
 using namespace std;
 
 int main() {
-    int n1 = 437;
-    int n2 = 48;
+    int nilA = 438;
+    int nilB = 49;
+    int mod1 = nilA%nilB;
     int hcf;
-    cout <<n1<<" mod "<<n2<< " adalah : \n";
+    cout <<"APLIKASI MODULO BY FACHRU DAHRI (17350068)"<<endl;
+    cout <<"++++++++++++++++++++++++++++++++++++++++++"<<endl<<endl;
+    cout <<"mencari nilai GDC "<<nilA<<" mod "<<nilB<< " adalah : "<<mod1<<endl;
 
-    // Swapping variables n1 and n2 if n2 is greater than n1.
-    if ( n2 != n1) {   
-        int temp = n2;
-        n2 = n1;
-        n1 = temp;
-    }
+    // pengkondisian nilai
     
-    for (int i = 1; i <=  n2; ++i) {
-        if (n1 % i == 0 && n2 % i ==0) {
+    for (int i = 1; i <=  nilB; ++i) {
+
+        if (nilA % i == 0 && nilB % i ==0) {
             hcf = i;
+
         }
     }
 
-    cout << "HCF = " << hcf<<endl;
+    cout << "GDC sebenarnya adalah = " << hcf<<endl;
     return 0;
 }
